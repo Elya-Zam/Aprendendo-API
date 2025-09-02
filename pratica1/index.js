@@ -3,6 +3,10 @@ import express from 'express';
 
 const app  = express();
 
+const buscaNomePremier = (premierLeague) => {
+    return premierLeague.filter(pr => pr.nome.toLowercase())
+}
+
 app.get('/premierLeague', (req,res) => {
     res.json(premierLeague);
 });
