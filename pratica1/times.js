@@ -1,4 +1,4 @@
-const premierLeague = [
+const times = [
     {
         id: 1,
         time: 'Arsenal',
@@ -100,4 +100,4 @@ const premierLeague = [
     },
 ]
 
-export default premierLeague;
+export default times;
