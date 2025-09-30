@@ -12,3 +12,8 @@ export const buscarUfsPorId = (id) => {
     const idUF = parseInt(id);
     return colecaoUf.find(uf => uf.id === idUF);
 };
+
+// export const buscarUfsPorSigla = (uf) => {
+//     const sigla = uf;
+
+// }
